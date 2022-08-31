@@ -86,17 +86,16 @@
         <h2 class="subtitle">Obtén el plan perfecto para aprender.</h2>
         <div class="price__table">
             <div class="price__element">
-                <p class="plan__name">Flexbox</p>
-                <h3 class="plan__price">Free</h3>
-
-                <div class="plan__items">
-                    <p class="plan__features">Flexbox</p>
-                    <p class="plan__features">Layout</p>
-                    <p class="plan__features">Responsive</p>
+                <p class="price__name">Flexbox</p>
+                <h3 class="price__price">Free</h3>
+                <div class="price__items">
+                    <p class="price__features">Flexbox</p>
+                    <p class="price__features">Layout</p>
+                    <p class="price__features">Responsive</p>
                 </div>
-                <a href="" class="plan__cta">Empieza ahora</a>
+                <a href="" class="price__cta">Empieza ahora</a>
             </div>
-            <div class="price__element">
+            <div class="price__element price__element--best">
                 <p class="price__name">Grid</p>
                 <h3 class="price__price">$19.990/mes</h3>
 
@@ -121,6 +120,96 @@
             </div>
         </div>
     </section>
+    <section class="testimony">
+        <div class="testimony__container container">
+            <img src="./img/leftarrow.svg" alt="" class="testimony__arrow" id="before">
+            <section class="testimony__body testimony__body--show" data-id="1">
+                <div class="testimony__texts">
+                    <h2 class="subtitle">Mi nombre es Rodrigo Otárola,
+                        <span class="testimony__course">Estudiante de CSS.</span>
+                    </h2>
+                    <p class="testimony__review">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam
+                        assumenda consequuntur deleniti doloremque ea eaque facilis, id iusto labore laudantium maxime,
+                        nesciunt nobis odio praesentium quia repudiandae tempora temporibus voluptate?</p>
+                </div>
+                <figure class="testimony__picture">
+                    <img src="./img/face.jpg" alt="" class="testimony__img">
+                </figure>
+            </section>
+            <section class="testimony__body" data-id="2">
+                <div class="testimony__texts">
+                    <h2 class="subtitle">Mi nombre es Sofía Otárola,
+                        <span class="testimony__course">Estudiante de CSS.</span>
+                    </h2>
+                    <p class="testimony__review">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam
+                        assumenda consequuntur deleniti doloremque ea eaque facilis, id iusto labore laudantium maxime,
+                        nesciunt nobis odio praesentium quia repudiandae tempora temporibus voluptate?</p>
+                </div>
+                <figure class="testimony__picture">
+                    <img src="./img/face2.jpg" alt="" class="testimony__img">
+                </figure>
+            </section>
+            <section class="testimony__body" data-id="3">
+                <div class="testimony__texts">
+                    <h2 class="subtitle">Mi nombre es Tania Bañares,
+                        <span class="testimony__course">Estudiante de CSS.</span>
+                    </h2>
+                    <p class="testimony__review">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam
+                        assumenda consequuntur deleniti doloremque ea eaque facilis, id iusto labore laudantium maxime,
+                        nesciunt nobis odio praesentium quia repudiandae tempora temporibus voluptate?</p>
+                </div>
+                <figure class="testimony__picture">
+                    <img src="./img/face3.jpg" alt="" class="testimony__img">
+                </figure>
+            </section>
+            <img src="./img/rightarrow.svg" alt="" class="testimony__arrow" id="next">
+        </div>
+    </section>
+    <section class="questions container">
+        <h2 class="subtitle">Preguntas frecuentes</h2>
+        <p class="questions__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum magni possimus
+            tenetur.</p>
+        <section class="questions__container">
+            <article class="questions__padding">
+                <div class="questions__answer">
+                    <h3 class="questions__title">¿Que es CSS?
+                    <span class="questions__arrow">
+                        <img src="./img/arrow.svg" alt="" class="questions__img">
+                    </span>
+                    </h3>
+                    <p class="questions__show">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi deleniti
+                        illum sapiente sequi. A aliquid corporis cupiditate dicta dolor eaque et fugit ipsa maiores
+                        mollitia nam perferendis, saepe, sunt tenetur?</p>
+                </div>
+            </article>
+            <article class="questions__padding">
+                <div class="questions__answer">
+                    <h3 class="questions__title">¿Que aprendere?
+                    <span class="questions__arrow">
+                        <img src="./img/arrow.svg" alt="" class="questions__img">
+                    </span>
+                    </h3>
+                    <p class="questions__show">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi deleniti
+                        illum sapiente sequi. A aliquid corporis cupiditate dicta dolor eaque et fugit ipsa maiores
+                        mollitia nam perferendis, saepe, sunt tenetur?</p>
+                </div>
+            </article>
+            <article class="questions__padding">
+                <div class="questions__answer">
+                    <h3 class="questions__title">¿Que es CSS grid?
+                    <span class="questions__arrow">
+                        <img src="./img/arrow.svg" alt="" class="questions__img">
+                    </span>
+                    </h3>
+                    <p class="questions__show">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi deleniti
+                        illum sapiente sequi. A aliquid corporis cupiditate dicta dolor eaque et fugit ipsa maiores
+                        mollitia nam perferendis, saepe, sunt tenetur?</p>
+                </div>
+            </article>
+        </section>
+    </section>
 </main>
+<script src="./js/slider.js"></script>
+<script src="./js/questions.js"></script>
 </body>
 </html>
